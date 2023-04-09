@@ -8,3 +8,17 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 40px;
 }
+.shared-link{
+    text-decoration: none;
+}
+.shared-style{
+    width: 98%;
+    height: 56px;
+    border-radius: 4px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: crimson;
+    color: white;
+}
