@@ -17,6 +17,7 @@ const Shop = () => {
 
     useEffect(()=>{
         const storedProducts = getShoppingCart();
+        console.log(storedProducts)
         const savedProducts = [];
         // step-1: get id of stored products from local storage
         for(const id in storedProducts){
