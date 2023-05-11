@@ -1,9 +1,21 @@
 import React from 'react';
-import './login.css'
+import './login.css';
+
 const Login = () => {
     return (
-        <div>
-            sign up
+        <div className='form-container'>
+           <h2 className='form-title'>Login</h2>
+           <form>
+            <div className='form-control'>
+                <label>Email</label>
+                <input type='email' name='email' required/>
+            </div>
+            <div className='form-control'>
+                <label>Password</label>
+                <input type='password' name='password' required/>
+            </div>
+            <input className='btn-submit' type="submit" value="Login" />
+           </form>
         </div>
     );
 };
